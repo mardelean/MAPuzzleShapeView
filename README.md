@@ -20,5 +20,5 @@ puzzleShapeView.backgroundColor = [UIColor lightGrayColor];
 ##Screenshot
 
 
-![Screenshot](https://github.com/MadalinaArdelean/MAPuzzleShapeView/raw/master/screenshot1.png)
-![Screenshot](https://github.com/MadalinaArdelean/MAPuzzleShapeView/raw/master/screenshot2.png)
+![Screenshot](https://github.com/MadalinaArdelean/MAPuzzleShapeView/MAPuzzleShapeView/raw/master/screenshot1.png)
+![Screenshot](https://github.com/MadalinaArdelean/MAPuzzleShapeView/MAPuzzleShapeView/raw/master/screenshot2.png)
