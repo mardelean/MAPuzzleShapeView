@@ -1,0 +1,442 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		93BAB1701A3CA3FF0035AFD8 /* MAPuzzleShapeViewTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 93BAB16F1A3CA3FF0035AFD8 /* MAPuzzleShapeViewTests.m */; };
+		93BAB1881A3CA45A0035AFD8 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 93BAB17B1A3CA45A0035AFD8 /* AppDelegate.m */; };
+		93BAB1891A3CA45A0035AFD8 /* MADemoViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 93BAB17F1A3CA45A0035AFD8 /* MADemoViewController.m */; };
+		93BAB18A1A3CA45A0035AFD8 /* MAPuzzleShapeView.m in Sources */ = {isa = PBXBuildFile; fileRef = 93BAB1831A3CA45A0035AFD8 /* MAPuzzleShapeView.m */; };
+		93BAB18B1A3CA45A0035AFD8 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 93BAB1841A3CA45A0035AFD8 /* Images.xcassets */; };
+		93BAB18C1A3CA45A0035AFD8 /* Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 93BAB1851A3CA45A0035AFD8 /* Info.plist */; };
+		93BAB18D1A3CA45A0035AFD8 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 93BAB1861A3CA45A0035AFD8 /* main.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		93BAB16A1A3CA3FF0035AFD8 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 93BAB1481A3CA3FE0035AFD8 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 93BAB14F1A3CA3FE0035AFD8;
+			remoteInfo = MAPuzzleShapeView;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		93BAB1501A3CA3FE0035AFD8 /* MAPuzzleShapeView.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MAPuzzleShapeView.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		93BAB1691A3CA3FF0035AFD8 /* MAPuzzleShapeViewTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MAPuzzleShapeViewTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		93BAB16E1A3CA3FF0035AFD8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		93BAB16F1A3CA3FF0035AFD8 /* MAPuzzleShapeViewTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MAPuzzleShapeViewTests.m; sourceTree = "<group>"; };
+		93BAB17A1A3CA45A0035AFD8 /* AppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		93BAB17B1A3CA45A0035AFD8 /* AppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		93BAB17E1A3CA45A0035AFD8 /* MADemoViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MADemoViewController.h; sourceTree = "<group>"; };
+		93BAB17F1A3CA45A0035AFD8 /* MADemoViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MADemoViewController.m; sourceTree = "<group>"; };
+		93BAB1821A3CA45A0035AFD8 /* MAPuzzleShapeView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MAPuzzleShapeView.h; sourceTree = "<group>"; };
+		93BAB1831A3CA45A0035AFD8 /* MAPuzzleShapeView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MAPuzzleShapeView.m; sourceTree = "<group>"; };
+		93BAB1841A3CA45A0035AFD8 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		93BAB1851A3CA45A0035AFD8 /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		93BAB1861A3CA45A0035AFD8 /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		93BAB1871A3CA45A0035AFD8 /* MAPuzzleShapeView-prefix.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "MAPuzzleShapeView-prefix.pch"; path = "../MAPuzzleShapeView/MAPuzzleShapeView-prefix.pch"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		93BAB14D1A3CA3FE0035AFD8 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		93BAB1661A3CA3FF0035AFD8 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		93BAB1471A3CA3FE0035AFD8 = {
+			isa = PBXGroup;
+			children = (
+				93BAB1791A3CA45A0035AFD8 /* MAPuzzleShapeView */,
+				93BAB16C1A3CA3FF0035AFD8 /* MAPuzzleShapeViewTests */,
+				93BAB1511A3CA3FE0035AFD8 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		93BAB1511A3CA3FE0035AFD8 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				93BAB1501A3CA3FE0035AFD8 /* MAPuzzleShapeView.app */,
+				93BAB1691A3CA3FF0035AFD8 /* MAPuzzleShapeViewTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		93BAB16C1A3CA3FF0035AFD8 /* MAPuzzleShapeViewTests */ = {
+			isa = PBXGroup;
+			children = (
+				93BAB16F1A3CA3FF0035AFD8 /* MAPuzzleShapeViewTests.m */,
+				93BAB16D1A3CA3FF0035AFD8 /* Supporting Files */,
+			);
+			path = MAPuzzleShapeViewTests;
+			sourceTree = "<group>";
+		};
+		93BAB16D1A3CA3FF0035AFD8 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				93BAB1871A3CA45A0035AFD8 /* MAPuzzleShapeView-prefix.pch */,
+				93BAB16E1A3CA3FF0035AFD8 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		93BAB1791A3CA45A0035AFD8 /* MAPuzzleShapeView */ = {
+			isa = PBXGroup;
+			children = (
+				93BAB17A1A3CA45A0035AFD8 /* AppDelegate.h */,
+				93BAB17B1A3CA45A0035AFD8 /* AppDelegate.m */,
+				93BAB17C1A3CA45A0035AFD8 /* Classes */,
+				93BAB1841A3CA45A0035AFD8 /* Images.xcassets */,
+				93BAB1851A3CA45A0035AFD8 /* Info.plist */,
+				93BAB1861A3CA45A0035AFD8 /* main.m */,
+			);
+			path = MAPuzzleShapeView;
+			sourceTree = "<group>";
+		};
+		93BAB17C1A3CA45A0035AFD8 /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				93BAB17D1A3CA45A0035AFD8 /* Demo */,
+				93BAB1801A3CA45A0035AFD8 /* GUI */,
+			);
+			path = Classes;
+			sourceTree = "<group>";
+		};
+		93BAB17D1A3CA45A0035AFD8 /* Demo */ = {
+			isa = PBXGroup;
+			children = (
+				93BAB17E1A3CA45A0035AFD8 /* MADemoViewController.h */,
+				93BAB17F1A3CA45A0035AFD8 /* MADemoViewController.m */,
+			);
+			path = Demo;
+			sourceTree = "<group>";
+		};
+		93BAB1801A3CA45A0035AFD8 /* GUI */ = {
+			isa = PBXGroup;
+			children = (
+				93BAB1811A3CA45A0035AFD8 /* MAPuzzleShapeView */,
+			);
+			path = GUI;
+			sourceTree = "<group>";
+		};
+		93BAB1811A3CA45A0035AFD8 /* MAPuzzleShapeView */ = {
+			isa = PBXGroup;
+			children = (
+				93BAB1821A3CA45A0035AFD8 /* MAPuzzleShapeView.h */,
+				93BAB1831A3CA45A0035AFD8 /* MAPuzzleShapeView.m */,
+			);
+			path = MAPuzzleShapeView;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		93BAB14F1A3CA3FE0035AFD8 /* MAPuzzleShapeView */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 93BAB1731A3CA3FF0035AFD8 /* Build configuration list for PBXNativeTarget "MAPuzzleShapeView" */;
+			buildPhases = (
+				93BAB14C1A3CA3FE0035AFD8 /* Sources */,
+				93BAB14D1A3CA3FE0035AFD8 /* Frameworks */,
+				93BAB14E1A3CA3FE0035AFD8 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = MAPuzzleShapeView;
+			productName = MAPuzzleShapeView;
+			productReference = 93BAB1501A3CA3FE0035AFD8 /* MAPuzzleShapeView.app */;
+			productType = "com.apple.product-type.application";
+		};
+		93BAB1681A3CA3FF0035AFD8 /* MAPuzzleShapeViewTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 93BAB1761A3CA3FF0035AFD8 /* Build configuration list for PBXNativeTarget "MAPuzzleShapeViewTests" */;
+			buildPhases = (
+				93BAB1651A3CA3FF0035AFD8 /* Sources */,
+				93BAB1661A3CA3FF0035AFD8 /* Frameworks */,
+				93BAB1671A3CA3FF0035AFD8 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				93BAB16B1A3CA3FF0035AFD8 /* PBXTargetDependency */,
+			);
+			name = MAPuzzleShapeViewTests;
+			productName = MAPuzzleShapeViewTests;
+			productReference = 93BAB1691A3CA3FF0035AFD8 /* MAPuzzleShapeViewTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		93BAB1481A3CA3FE0035AFD8 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0610;
+				ORGANIZATIONNAME = "Madalina Ardelean";
+				TargetAttributes = {
+					93BAB14F1A3CA3FE0035AFD8 = {
+						CreatedOnToolsVersion = 6.1;
+					};
+					93BAB1681A3CA3FF0035AFD8 = {
+						CreatedOnToolsVersion = 6.1;
+						TestTargetID = 93BAB14F1A3CA3FE0035AFD8;
+					};
+				};
+			};
+			buildConfigurationList = 93BAB14B1A3CA3FE0035AFD8 /* Build configuration list for PBXProject "MAPuzzleShapeView" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 93BAB1471A3CA3FE0035AFD8;
+			productRefGroup = 93BAB1511A3CA3FE0035AFD8 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				93BAB14F1A3CA3FE0035AFD8 /* MAPuzzleShapeView */,
+				93BAB1681A3CA3FF0035AFD8 /* MAPuzzleShapeViewTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		93BAB14E1A3CA3FE0035AFD8 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				93BAB18C1A3CA45A0035AFD8 /* Info.plist in Resources */,
+				93BAB18B1A3CA45A0035AFD8 /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		93BAB1671A3CA3FF0035AFD8 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		93BAB14C1A3CA3FE0035AFD8 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				93BAB1881A3CA45A0035AFD8 /* AppDelegate.m in Sources */,
+				93BAB1891A3CA45A0035AFD8 /* MADemoViewController.m in Sources */,
+				93BAB18D1A3CA45A0035AFD8 /* main.m in Sources */,
+				93BAB18A1A3CA45A0035AFD8 /* MAPuzzleShapeView.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		93BAB1651A3CA3FF0035AFD8 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				93BAB1701A3CA3FF0035AFD8 /* MAPuzzleShapeViewTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		93BAB16B1A3CA3FF0035AFD8 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 93BAB14F1A3CA3FE0035AFD8 /* MAPuzzleShapeView */;
+			targetProxy = 93BAB16A1A3CA3FF0035AFD8 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		93BAB1711A3CA3FF0035AFD8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		93BAB1721A3CA3FF0035AFD8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		93BAB1741A3CA3FF0035AFD8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				GCC_PREFIX_HEADER = "MAPuzzleShapeVIew/MAPuzzleShapeView-prefix.pch";
+				INFOPLIST_FILE = MAPuzzleShapeView/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		93BAB1751A3CA3FF0035AFD8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				GCC_PREFIX_HEADER = "MAPuzzleShapeVIew/MAPuzzleShapeView-prefix.pch";
+				INFOPLIST_FILE = MAPuzzleShapeView/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		93BAB1771A3CA3FF0035AFD8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = MAPuzzleShapeViewTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/MAPuzzleShapeView.app/MAPuzzleShapeView";
+			};
+			name = Debug;
+		};
+		93BAB1781A3CA3FF0035AFD8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = MAPuzzleShapeViewTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/MAPuzzleShapeView.app/MAPuzzleShapeView";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		93BAB14B1A3CA3FE0035AFD8 /* Build configuration list for PBXProject "MAPuzzleShapeView" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				93BAB1711A3CA3FF0035AFD8 /* Debug */,
+				93BAB1721A3CA3FF0035AFD8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		93BAB1731A3CA3FF0035AFD8 /* Build configuration list for PBXNativeTarget "MAPuzzleShapeView" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				93BAB1741A3CA3FF0035AFD8 /* Debug */,
+				93BAB1751A3CA3FF0035AFD8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		93BAB1761A3CA3FF0035AFD8 /* Build configuration list for PBXNativeTarget "MAPuzzleShapeViewTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				93BAB1771A3CA3FF0035AFD8 /* Debug */,
+				93BAB1781A3CA3FF0035AFD8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 93BAB1481A3CA3FE0035AFD8 /* Project object */;
+}

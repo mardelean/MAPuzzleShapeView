@@ -4,7 +4,7 @@
 <dict>
 	<key>SchemeUserState</key>
 	<dict>
-		<key>MACustomShapeView.xcscheme</key>
+		<key>MAPuzzleShapeView.xcscheme</key>
 		<dict>
 			<key>orderHint</key>
 			<integer>0</integer>
@@ -12,12 +12,12 @@
 	</dict>
 	<key>SuppressBuildableAutocreation</key>
 	<dict>
-		<key>932C7A821A374D21002CE350</key>
+		<key>93BAB14F1A3CA3FE0035AFD8</key>
 		<dict>
 			<key>primary</key>
 			<true/>
 		</dict>
-		<key>932C7A9B1A374D22002CE350</key>
+		<key>93BAB1681A3CA3FF0035AFD8</key>
 		<dict>
 			<key>primary</key>
 			<true/>

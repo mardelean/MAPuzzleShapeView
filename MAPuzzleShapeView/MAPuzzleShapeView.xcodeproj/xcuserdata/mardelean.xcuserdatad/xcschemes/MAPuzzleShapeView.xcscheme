@@ -14,10 +14,10 @@
             buildForAnalyzing = "YES">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "932C7A821A374D21002CE350"
-               BuildableName = "MACustomShapeView.app"
-               BlueprintName = "MACustomShapeView"
-               ReferencedContainer = "container:MACustomShapeView.xcodeproj">
+               BlueprintIdentifier = "93BAB14F1A3CA3FE0035AFD8"
+               BuildableName = "MAPuzzleShapeView.app"
+               BlueprintName = "MAPuzzleShapeView"
+               ReferencedContainer = "container:MAPuzzleShapeView.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
          <BuildActionEntry
@@ -28,10 +28,10 @@
             buildForAnalyzing = "YES">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "932C7A9B1A374D22002CE350"
-               BuildableName = "MACustomShapeViewTests.xctest"
-               BlueprintName = "MACustomShapeViewTests"
-               ReferencedContainer = "container:MACustomShapeView.xcodeproj">
+               BlueprintIdentifier = "93BAB1681A3CA3FF0035AFD8"
+               BuildableName = "MAPuzzleShapeViewTests.xctest"
+               BlueprintName = "MAPuzzleShapeViewTests"
+               ReferencedContainer = "container:MAPuzzleShapeView.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
       </BuildActionEntries>
@@ -46,20 +46,20 @@
             skipped = "NO">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "932C7A9B1A374D22002CE350"
-               BuildableName = "MACustomShapeViewTests.xctest"
-               BlueprintName = "MACustomShapeViewTests"
-               ReferencedContainer = "container:MACustomShapeView.xcodeproj">
+               BlueprintIdentifier = "93BAB1681A3CA3FF0035AFD8"
+               BuildableName = "MAPuzzleShapeViewTests.xctest"
+               BlueprintName = "MAPuzzleShapeViewTests"
+               ReferencedContainer = "container:MAPuzzleShapeView.xcodeproj">
             </BuildableReference>
          </TestableReference>
       </Testables>
       <MacroExpansion>
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "932C7A821A374D21002CE350"
-            BuildableName = "MACustomShapeView.app"
-            BlueprintName = "MACustomShapeView"
-            ReferencedContainer = "container:MACustomShapeView.xcodeproj">
+            BlueprintIdentifier = "93BAB14F1A3CA3FE0035AFD8"
+            BuildableName = "MAPuzzleShapeView.app"
+            BlueprintName = "MAPuzzleShapeView"
+            ReferencedContainer = "container:MAPuzzleShapeView.xcodeproj">
          </BuildableReference>
       </MacroExpansion>
    </TestAction>
@@ -75,10 +75,10 @@
       <BuildableProductRunnable>
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "932C7A821A374D21002CE350"
-            BuildableName = "MACustomShapeView.app"
-            BlueprintName = "MACustomShapeView"
-            ReferencedContainer = "container:MACustomShapeView.xcodeproj">
+            BlueprintIdentifier = "93BAB14F1A3CA3FE0035AFD8"
+            BuildableName = "MAPuzzleShapeView.app"
+            BlueprintName = "MAPuzzleShapeView"
+            ReferencedContainer = "container:MAPuzzleShapeView.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
       <AdditionalOptions>
@@ -93,10 +93,10 @@
       <BuildableProductRunnable>
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "932C7A821A374D21002CE350"
-            BuildableName = "MACustomShapeView.app"
-            BlueprintName = "MACustomShapeView"
-            ReferencedContainer = "container:MACustomShapeView.xcodeproj">
+            BlueprintIdentifier = "93BAB14F1A3CA3FE0035AFD8"
+            BuildableName = "MAPuzzleShapeView.app"
+            BlueprintName = "MAPuzzleShapeView"
+            ReferencedContainer = "container:MAPuzzleShapeView.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
    </ProfileAction>
