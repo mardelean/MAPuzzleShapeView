@@ -137,7 +137,7 @@ static NSString *kCellIdentifier = @"CellIdentifier";
         _puzzleShapeView = [[MAPuzzleShapeView alloc] initWithFrame:CGRectZero];
         _puzzleShapeView.shapeLength = 40.f;
         _puzzleShapeView.shapeAlignment = UIViewShapeAlignmentNone;
-        _puzzleShapeView.backgroundColor = [UIColor lightGrayColor];
+        _puzzleShapeView.backgroundFillColor = [UIColor lightGrayColor];
     }
     return _puzzleShapeView;
 }

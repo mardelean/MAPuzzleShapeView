@@ -14,7 +14,12 @@
     self = [super initWithFrame:frame];
     if (self) {
         self.shapeLength = 0.f;
+        self.backgroundColor = [UIColor clearColor];
+        self.backgroundFillColor = [UIColor darkGrayColor];
+        self.strokeColor = [UIColor darkGrayColor];
+        self.lineWidth = 0.f;
         self.shapeAlignment = UIViewShapeAlignmentOnX;
+        
         [self addSubview:self.contentView];
     }
     return self;
@@ -29,44 +34,62 @@
 - (void)drawRect:(CGRect)rect {
     [super drawRect:rect];
     
+    [self.backgroundFillColor setFill];
+    [self.strokeColor setStroke];
+    
     CGFloat width = CGRectGetWidth(rect);
     CGFloat height = CGRectGetHeight(rect);
-    
-    if (UIViewShapeAlignmentNone == self.shapeAlignment) {
-        return;
-    }
-    
-    CGContextRef context = UIGraphicsGetCurrentContext();
-    
-    CGContextBeginPath(context);
+    CGFloat radius = self.shapeLength / 2.f;
+    CGFloat leftRightValue = (height - self.shapeLength) / 2.f;
+    CGFloat topBottomValue = (width - self.shapeLength) / 2.f;
+
+    UIBezierPath *path = [UIBezierPath bezierPath];
+    [path setLineWidth:self.lineWidth];
+    [path moveToPoint:CGPointMake(.0f, .0f)];
     
     if (self.shapeAlignment & UIViewShapeAlignmentLeft) {
-        [self createShapeForContext:context
-                    withCenterOfArc:CGPointMake(0.f, height / 2.f)
-                      andAnglePoint:CGPointMake(M_PI_2, -M_PI_2)];
+        [path addLineToPoint:CGPointMake(.0f, leftRightValue)];
+        [path addArcWithCenter:CGPointMake(.0f, leftRightValue + radius)
+                        radius:radius
+                    startAngle:-M_PI_2
+                      endAngle:M_PI_2
+                     clockwise:YES];
     }
+    [path addLineToPoint:CGPointMake(.0f, height)];
+    
+    if (self.shapeAlignment & UIViewShapeAlignmentBottom) {
+        [path addLineToPoint:CGPointMake(topBottomValue, height)];
+        [path addArcWithCenter:CGPointMake(topBottomValue + radius, height)
+                        radius:radius
+                    startAngle:-M_PI
+                      endAngle:0
+                     clockwise:YES];
+    }
+    [path addLineToPoint:CGPointMake(width, height)];
     
     if (self.shapeAlignment & UIViewShapeAlignmentRight) {
-        [self createShapeForContext:context
-                    withCenterOfArc:CGPointMake(width, height / 2.f)
-                      andAnglePoint:CGPointMake(-M_PI_2, M_PI_2)];
+        [path addLineToPoint:CGPointMake(width, height - leftRightValue)];
+        [path addArcWithCenter:CGPointMake(width, leftRightValue + radius)
+                        radius:radius
+                    startAngle:M_PI_2
+                      endAngle:-M_PI_2
+                     clockwise:YES];
     }
-
+    [path addLineToPoint:CGPointMake(width, 0.f)];
+    
     if (self.shapeAlignment & UIViewShapeAlignmentTop) {
-        [self createShapeForContext:context
-                    withCenterOfArc:CGPointMake(width / 2.f, 0)
-                      andAnglePoint:CGPointMake(M_PI, 0)];
-    }
-
-    if (self.shapeAlignment & UIViewShapeAlignmentBottom) {
-        [self createShapeForContext:context
-                    withCenterOfArc:CGPointMake(width / 2.f, height)
-                      andAnglePoint:CGPointMake(0, M_PI)];
+        [path addLineToPoint:CGPointMake(width - topBottomValue, 0.f)];
+        [path addArcWithCenter:CGPointMake(topBottomValue + radius, 0.f)
+                        radius:radius
+                    startAngle:0
+                      endAngle:M_PI
+                     clockwise:YES];
     }
     
-    CGContextClosePath(context);
-    CGContextSetFillColorWithColor(context, [UIColor whiteColor].CGColor);
-    CGContextFillPath(context);
+    [path closePath];
+    [path fill];
+    [path stroke];
+
 }
 
 #pragma mark - Properties
@@ -86,17 +109,6 @@
 }
 
 #pragma mark - Private methods
-- (void)createShapeForContext:(CGContextRef)context withCenterOfArc:(CGPoint)center andAnglePoint:(CGPoint)anglePoint {
-    CGFloat radius = self.shapeLength / 2.f;
-    CGContextMoveToPoint(context, center.x, center.y);
-    CGContextAddArc(context,
-                    center.x,
-                    center.y,
-                    radius,
-                    anglePoint.x,
-                    anglePoint.y,
-                    1);
-}
 
 - (CGRect)frameForContentView {
     CGFloat offsetLeft = 0.f;

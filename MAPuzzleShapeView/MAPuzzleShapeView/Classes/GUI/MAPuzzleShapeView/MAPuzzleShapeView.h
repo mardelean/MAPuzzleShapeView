@@ -39,4 +39,18 @@ typedef NS_OPTIONS(NSUInteger, UIViewShapeAlignment) {
  */
 @property (nonatomic, strong) UIView *contentView;
 
+/*
+ * The default color will be darkGray
+ */
+@property (nonatomic, strong) UIColor *backgroundFillColor;
+
+/*
+ * The default value will be 0
+ */
+@property (nonatomic, assign) CGFloat lineWidth;
+/*
+ * The default color will be darkGray
+ */
+@property (nonatomic, strong) UIColor *strokeColor;
+
 @end
