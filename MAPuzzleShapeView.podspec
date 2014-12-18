@@ -1,6 +1,6 @@
 Pod::Spec.new do |spec|
   spec.name         = 'MAPuzzleShapeView'
-  spec.version      = '0.0.1'
+  spec.version      = '0.0.2'
   spec.license      = { :type => 'MIT' }
   spec.homepage     = 'https://github.com/mardelean/MAPuzzleShapeView'
   spec.authors      = { 'Madalina Ardelean' => 'ardeleanmada1@gmail.com' }
