@@ -96,7 +96,7 @@
 
 - (UIView *)contentView {
     if (!_contentView) {
-        _contentView = [[UIView alloc] initWithFrame:CGRectZero];
+        _contentView = [[UIView alloc] initWithFrame:self.bounds];
         _contentView.autoresizesSubviews = YES;
     }
     return _contentView;
